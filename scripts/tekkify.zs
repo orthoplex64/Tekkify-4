@@ -4,6 +4,7 @@ import mods.nei.NEI;
 
 import mods.tconstruct.Casting;
 import mods.tconstruct.Modifiers;
+import mods.tconstruct.Smeltery;
 
 var toRemove = [] as IItemStack[];
 
@@ -13,6 +14,9 @@ toRemove = [
     <minecraft:iron_pickaxe>,
     <minecraft:golden_pickaxe>,
     <minecraft:diamond_pickaxe>,
+
+    // Biomes o' Plenty
+    <BiomesOPlenty:enderporter>,
 
     // Tinkers Construct
     <TConstruct:ToolForgeBlock:*>,
@@ -44,6 +48,17 @@ toRemove = [
 
 for item in toRemove {
     Casting.removeTableRecipe(item);
+}
+
+toRemove = [
+    <minecraft:anvil:0>,
+    <minecraft:anvil:1>,
+    <minecraft:anvil:2>,
+    <minecraft:stone>,
+];
+
+for item in toRemove {
+    Smeltery.removeMelting(item);
 }
 
 //Modifiers.remove("Flux");
