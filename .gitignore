@@ -1,7 +1,12 @@
 /*
+
 !.gitignore
+
 !config/
 !scripts/
+
+!mod_list.txt
 !smart_moving_options.txt
+
 config/NEI/client.cfg
 config/splash.properties
