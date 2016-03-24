@@ -1,30 +1,49 @@
-/*
+import minetweaker.item.IItemStack;
 
--- Seems to be broken in this version of MineTweaker.
+import mods.nei.NEI;
 
-var toRemove = [
+import mods.tconstruct.Casting;
+import mods.tconstruct.Modifiers;
+
+var toRemove = [] as IItemStack[];
+
+toRemove = [
     // Vanilla
-    <minecraft:diamond_pickaxe>,
+    <minecraft:stone_pickaxe>,
     <minecraft:iron_pickaxe>,
+    <minecraft:golden_pickaxe>,
+    <minecraft:diamond_pickaxe>,
 
     // Tinkers Construct
     <TConstruct:ToolForgeBlock:*>,
-    <TConstruct:CraftingSlab:5>
-] as IItemStack[];
+    <TConstruct:CraftingSlab:5>,
+
+    <TConstruct:woodPattern:17>,
+    <TConstruct:woodPattern:19>,
+    <TConstruct:woodPattern:21>,
+
+    <TConstruct:metalPattern:17>,
+    <TConstruct:metalPattern:19>,
+    <TConstruct:metalPattern:21>
+];
 
 for item in toRemove {
     recipes.remove(item);
+
+    // Disabled for production, bit buggy with reloads
+    //NEI.hide(item);
 }
-
-*/
-
-recipes.remove(<minecraft:stone_pickaxe>);
-recipes.remove(<minecraft:iron_pickaxe>);
-recipes.remove(<minecraft:diamond_pickaxe>);
-
-recipes.remove(<TConstruct:ToolForgeBlock:*>);
-recipes.remove(<TConstruct:CraftingSlab:5>);
 
 // Tinkers Construct
 
-//mods.tconstruct.Modifiers.remove("Flux");
+toRemove = [
+    <TConstruct:metalPattern:17>,
+    <TConstruct:metalPattern:19>,
+    <TConstruct:metalPattern:21>
+];
+
+for item in toRemove {
+    Casting.removeTableRecipe(item);
+}
+
+//Modifiers.remove("Flux");
