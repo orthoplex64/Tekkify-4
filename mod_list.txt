@@ -18,5 +18,6 @@ Render Player API Enhancer - 1.4
 Smart Core - 1.0.3
 Smart Moving - 15.6
 Smart Render - 2.1
+Thermal Expansion - 1.7.10R4.1.2
 Thermal Foundation - 1.7.10R1.2.3
 Tinkers' Construct - 1.7.10-1.8.8.build988
