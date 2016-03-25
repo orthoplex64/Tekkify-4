@@ -6,6 +6,7 @@ Botany - 2.0-pre14
 CoFH ASM - 000
 CoFH Core - 1.7.10R3.1.2
 CodeChicken Core - 1.0.7.47
+Custom Main Menu - 1.9.2
 Ding - MC1.7.10v2
 Extra Bees - 2.0-pre14
 Extra Trees - 2.0-pre14
@@ -28,6 +29,7 @@ Not Enough Items - 1.0.5.120
 Player API - 1.4
 Render Player API - 1.4
 Render Player API Enhancer - 1.4
+Resource Loader - 1.2
 Smart Core - 1.0.3
 Smart Moving - 15.6
 Smart Render - 2.1
