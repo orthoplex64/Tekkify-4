@@ -46,8 +46,10 @@ for item in toRemove {
 
 <StorageDrawers:upgrade:5>.displayName = "Storage Upgrade (IV)";
 
-var gold = <ore:ingotGold>;
 var stick = <ore:stickWood>;
+
+var gold = <ore:ingotGold>;
+var diamond = <ore:gemDiamond>;
 
 recipes.remove(<StorageDrawers:upgrade:3>);
 recipes.addShaped(<StorageDrawers:upgrade:3>, [[gold, stick, gold], [stick, <StorageDrawers:upgrade:2>, stick], [gold, stick, gold]]);

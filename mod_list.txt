@@ -1,9 +1,21 @@
+Archimedes' Ships Plus - 1.7.10-1.8.1
+Binnie Core - 2.0-pre14
+Binnie Patcher - 1.7.1
 Biomes O' Plenty - 2.1.0
+Botany - 2.0-pre14
 CoFH ASM - 000
 CoFH Core - 1.7.10R3.1.2
 CodeChicken Core - 1.0.7.47
 Ding - MC1.7.10v2
+Extra Bees - 2.0-pre14
+Extra Trees - 2.0-pre14
+Forestry for Minecraft - 4.2.11.59
 Forge Mod Loader - 7.10.99.99
+Garden Containers - 1.7.10-1.7.0
+Garden Core - 1.7.10-1.7.0
+Garden Stuff - 1.7.10-1.7.0
+Garden Trees - 1.7.10-1.7.0
+Genetics - 2.0-pre14
 Iguana Tinker Tweaks - 1.7.10-2.1.6.163
 Mantle - 1.7.10-0.3.2.jenkins191
 MineTweaker 3 - 3.0.10
@@ -11,6 +23,7 @@ Minecraft Coder Pack - 9.05
 Minecraft Forge - 10.13.4.1614
 Mod Lister - 1.0.0
 Mod Tweaker 2 - 0.9.5
+Moving World - 1.7.10-1.8.1
 Not Enough Items - 1.0.5.120
 Player API - 1.4
 Render Player API - 1.4
