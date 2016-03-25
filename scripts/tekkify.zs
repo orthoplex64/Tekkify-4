@@ -18,6 +18,10 @@ toRemove = [
     // Biomes o' Plenty
     <BiomesOPlenty:enderporter>,
 
+    // Storage Drawers
+    <StorageDrawers:upgrade:4>,
+    <StorageDrawers:upgrade:6>,
+
     // Tinkers Construct
     <TConstruct:ToolForgeBlock:*>,
     <TConstruct:CraftingSlab:5>,
@@ -37,6 +41,19 @@ for item in toRemove {
     // Disabled for production, bit buggy with reloads
     //NEI.hide(item);
 }
+
+// Storage Drawers
+
+<StorageDrawers:upgrade:5>.displayName = "Storage Upgrade (IV)";
+
+var gold = <ore:ingotGold>;
+var stick = <ore:stickWood>;
+
+recipes.remove(<StorageDrawers:upgrade:3>);
+recipes.addShaped(<StorageDrawers:upgrade:3>, [[gold, stick, gold], [stick, <StorageDrawers:upgrade:2>, stick], [gold, stick, gold]]);
+
+recipes.remove(<StorageDrawers:upgrade:5>);
+recipes.addShaped(<StorageDrawers:upgrade:5>, [[diamond, stick, diamond], [stick, <StorageDrawers:upgrade:3>, stick], [diamond, stick, diamond]]);
 
 // Tinkers Construct
 
