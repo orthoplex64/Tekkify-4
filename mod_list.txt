@@ -52,6 +52,7 @@ Mod Tweaker 2 - 0.9.5
 Moving World - 1.7.10-1.8.1
 Not Enough Items - 1.0.5.120
 Player API - 1.4
+Railcraft - 9.10.0.0
 Render Player API - 1.4
 Render Player API Enhancer - 1.4
 Resource Loader - 1.2
