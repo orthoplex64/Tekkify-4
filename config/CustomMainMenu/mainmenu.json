@@ -14,12 +14,56 @@
     
     "buttons":
     {
+        "play":
+        {
+            "text" : "Play Tekkify",
+            "posX" : -80,
+            "posY" : 48,
+            "width" : 160,
+            "height" : 20,
+            "texture" : "tekkify:test.PNG",
+            "normalTextColor" : 11513775,
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "play.tekkify.com"
+            }
+        },
+
+        "website":
+        {
+            "text" : "Website",
+            "posX" : -80,
+            "posY" : 67,
+            "width" : 160,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "http://tekkify.com"
+            }
+        },
+
+        "store":
+        {
+            "text" : "Store",
+            "posX" : -80,
+            "posY" : 86,
+            "width" : 160,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "http://store.tekkify.com"
+            }
+        },
+
         "singleplayer":
         {
             "text" : "menu.singleplayer",
-            "posX" : -100,
-            "posY" : 48,
-            "width" : 200,
+            "posX" : -80,
+            "posY" : 105,
+            "width" : 160,
             "height" : 20,
             "action" : 
             {
@@ -31,9 +75,9 @@
         "multiplayer":
         {
             "text" : "menu.multiplayer",
-            "posX" : -100,
-            "posY" : 72,
-            "width" : 200,
+            "posX" : -80,
+            "posY" : 124,
+            "width" : 160,
             "height" : 20,
             "action" : 
             {
@@ -41,27 +85,13 @@
                 "gui" : "multiplayer"
             }
         },
-        
-        "mods":
-        {
-            "text" : "Mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "mods"
-            }
-        },
             
         "options":
         {
             "text" : "menu.options",
-            "posX" : -100,
-            "posY" : 132,
-            "width" : 98,
+            "posX" : -80,
+            "posY" : 143,
+            "width" : 160,
             "height" : 20,
             "action" : 
             {
@@ -70,24 +100,11 @@
             }
         },
         
-        "quit":
-        {
-            "text" : "menu.quit",
-            "posX" : 2,
-            "posY" : 132,
-            "width" : 98,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "quit"
-            }
-        },
-        
         "language":
         {
             "text" : "",
-            "posX" : -124,
-            "posY" : 132,
+            "posX" : -102,
+            "posY" : 143,
             "width" : 20,
             "height" : 20,
             "action" : 
@@ -101,10 +118,9 @@
         {
             "text" : "",
             "posX" : -154,
-            "posY" : 132,
+            "posY" : 124,
             "width" : 20,
             "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
             "action" : 
             {
                 "type" : "refresh"
@@ -114,23 +130,6 @@
     
     "texts":
     {
-        "mojang":
-        {
-            "text" : "Copyright Mojang AB. Do not distribute!",
-            "posX" : -197,
-            "posY" : -10,
-            "color" : -1,
-            "alignment" : "bottom_right"
-        },
-        
-        "fml":
-        {
-            "text" : "",
-            "posX" : 2,
-            "posY" : -50,
-            "color" : -1,
-            "alignment" : "bottom_left"
-        }
     },
     
     "other":
