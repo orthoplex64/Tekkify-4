@@ -13,14 +13,15 @@ Ding - MC1.7.10v2
 Extra Bees - 2.0-pre14
 Extra Trees - 2.0-pre14
 Forestry for Minecraft - 4.2.11.59
-Forge Microblocks - 1.1.2.331
+Forge Microblocks - 1.2.0.345
 Forge Mod Loader - 7.10.99.99
-Forge Multipart - 1.1.2.331
+Forge Multipart - 1.2.0.345
 Garden Containers - 1.7.10-1.7.0
 Garden Core - 1.7.10-1.7.0
 Garden Stuff - 1.7.10-1.7.0
 Garden Trees - 1.7.10-1.7.0
 Genetics - 2.0-pre14
+Headcrumbs - 1.7.4
 Iguana Tinker Tweaks - 1.7.10-2.1.6.163
 MFR Compat ProjectRed - 1.7.10R2.8.1
 MFR Compat: Applied Energistics - 1.7.10R2.8.1
@@ -46,7 +47,7 @@ MineFactory Reloaded - 1.7.10R2.8.1
 MineTweaker 3 - 3.0.10
 Minecraft Coder Pack - 9.05
 Minecraft Forge - 10.13.4.1614
-Minecraft Multipart Plugin - 1.1.2.331
+Minecraft Multipart Plugin - 1.2.0.345
 Mod Lister - 1.0.0
 Mod Tweaker 2 - 0.9.5
 Moving World - 1.7.10-1.8.1
