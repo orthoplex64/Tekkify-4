@@ -81,3 +81,18 @@ for item in toRemove {
 }
 
 //Modifiers.remove("Flux");
+
+
+
+
+
+
+
+
+
+
+recipes.remove(<OpenComputers:item:62>);
+<OpenComputers:item:62>.addTooltip(format.red("Disabled"));
+
+recipes.remove(<OpenComputers:item:107>);
+<OpenComputers:item:107>.addTooltip(format.red("Disabled"));

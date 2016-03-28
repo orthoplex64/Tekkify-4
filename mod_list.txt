@@ -5,6 +5,8 @@ Binnie Core - 2.0-pre14
 Binnie Patcher - 1.7.1
 Biomes O' Plenty - 2.1.0
 Botany - 2.0-pre14
+Carpenter's Blocks - 3.3.7
+Chisel - 2.9.5.11
 CoFH ASM - 000
 CoFH Core - 1.7.10R3.1.2
 CodeChicken Core - 1.0.7.47
