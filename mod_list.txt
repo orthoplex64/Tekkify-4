@@ -10,6 +10,7 @@ CoFH Core - 1.7.10R3.1.2
 CodeChicken Core - 1.0.7.47
 Custom Main Menu - 1.9.2
 Ding - MC1.7.10v2
+EnderStorage - 1.4.7.38
 Extra Bees - 2.0-pre14
 Extra Trees - 2.0-pre14
 Forestry for Minecraft - 4.2.11.59
@@ -41,8 +42,6 @@ MFR Compat: Tinkers' Construct - 1.7.10R2.8.1
 MFR Compat: TwilightForest - 1.7.10R2.8.1
 MFR Compat: Vanilla - 1.7.10R2.8.1
 Mantle - 1.7.10-0.3.2.jenkins191
-Mekanism - 8.1.9
-MekanismGenerators - 8.1.9
 MineFactory Reloaded - 1.7.10R2.8.1
 MineTweaker 3 - 3.0.10
 Minecraft Coder Pack - 9.05
@@ -51,8 +50,19 @@ Minecraft Multipart Plugin - 1.2.0.345
 Mod Lister - 1.0.0
 Mod Tweaker 2 - 0.9.5
 Moving World - 1.7.10-1.8.1
+MrTJPCore - 1.1.0.33
+NEI Integration - 1.1.2
 Not Enough Items - 1.0.5.120
+OpenComputers - 1.5.22.46
+OpenComputers (Core) - 1.5.22.46
+Pam's HarvestCraft - 1.7.10j
 Player API - 1.4
+ProjectRed Compatibility - 4.7.0pre12.95
+ProjectRed Core - 4.7.0pre12.95
+ProjectRed Exploration - 4.7.0pre12.95
+ProjectRed Illumination - 4.7.0pre12.95
+ProjectRed Integration - 4.7.0pre12.95
+ProjectRed Transmission - 4.7.0pre12.95
 Railcraft - 9.10.0.0
 Render Player API - 1.4
 Render Player API Enhancer - 1.4
