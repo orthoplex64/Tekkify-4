@@ -13,6 +13,7 @@ Ding - MC1.7.10v2
 EnderStorage - 1.4.7.38
 Extra Bees - 2.0-pre14
 Extra Trees - 2.0-pre14
+Extra Utilities - 1.2.12
 Forestry for Minecraft - 4.2.11.59
 Forge Microblocks - 1.2.0.345
 Forge Mod Loader - 7.10.99.99
