@@ -50,7 +50,7 @@ MineTweaker 3 - 3.0.10
 Minecraft Coder Pack - 9.05
 Minecraft Forge - 10.13.4.1614
 Minecraft Multipart Plugin - 1.2.0.345
-Mod Lister - 1.0.0
+Mod Lister - 1.0.1
 Mod Tweaker 2 - 0.9.5
 Moving World - 1.7.10-1.8.1
 MrTJPCore - 1.1.0.33
@@ -74,7 +74,7 @@ Smart Core - 1.0.3
 Smart Moving - 15.6
 Smart Render - 2.1
 Storage Drawers - 1.7.10-1.9.4
-Thermal Dynamics - 1.7.10R1.2.0B2
+Thermal Dynamics - 1.7.10R1.1.0
 Thermal Expansion - 1.7.10R4.1.2
 Thermal Foundation - 1.7.10R1.2.3
 Tinkers' Construct - 1.7.10-1.8.8.build988
