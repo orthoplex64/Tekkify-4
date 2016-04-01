@@ -1,3 +1,4 @@
+AgriCraft - 1.7.10-1.5.0
 Applied Energistics 2 - rv2-stable-10
 AppliedEnergistics2 Core - rv2-stable-10
 Archimedes' Ships Plus - 1.7.10-1.8.1
