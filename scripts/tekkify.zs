@@ -32,7 +32,11 @@ toRemove = [
 
     <TConstruct:metalPattern:17>,
     <TConstruct:metalPattern:19>,
-    <TConstruct:metalPattern:21>
+    <TConstruct:metalPattern:21>,
+
+    // OpenComputers
+    <OpenComputers:item:62>,
+    <OpenComputers:item:107>
 ];
 
 for item in toRemove {
@@ -41,6 +45,14 @@ for item in toRemove {
     // Disabled for production, bit buggy with reloads
     //NEI.hide(item);
 }
+
+// MineFactory Reloaded
+
+recipes.remove(<MineFactoryReloaded:safarinet.singleuse>);
+recipes.addShaped(<MineFactoryReloaded:safarinet.singleuse>, [[null, <minecraft:ender_pearl>, null], [<minecraft:string>, <minecraft:egg>, <minecraft:string>], [null, <ore:slimeball>, null]]);
+
+recipes.remove(<MineFactoryReloaded:safarinet.reusable>);
+recipes.addShaped(<MineFactoryReloaded:safarinet.reusable>, [[null, <minecraft:ghast_tear>, null], [<ore:itemSkull>, <MineFactoryReloaded:safarinet.singleuse>, <ore:itemSkull>], [null, <ore:ingotEnderium>, null]]);
 
 // Storage Drawers
 
@@ -81,18 +93,3 @@ for item in toRemove {
 }
 
 //Modifiers.remove("Flux");
-
-
-
-
-
-
-
-
-
-
-recipes.remove(<OpenComputers:item:62>);
-<OpenComputers:item:62>.addTooltip(format.red("Disabled"));
-
-recipes.remove(<OpenComputers:item:107>);
-<OpenComputers:item:107>.addTooltip(format.red("Disabled"));
