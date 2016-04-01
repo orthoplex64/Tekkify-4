@@ -36,7 +36,22 @@ toRemove = [
 
     // OpenComputers
     <OpenComputers:item:62>,
-    <OpenComputers:item:107>
+    
+    // Forestry
+    <Forestry:factory:7>,
+    
+    // MineFactory Reloaded
+    <MineFactoryReloaded:fishingrod>,
+    <MineFactoryReloaded:needlegun.ammo.lava>,
+    <MineFactoryReloaded:needlegun.ammo.sludge>,
+    <MineFactoryReloaded:needlegun.ammo.sewage>,
+    <MineFactoryReloaded:needlegun.ammo.fire>,
+    <MineFactoryReloaded:needlegun.ammo.anvil>,
+    <MineFactoryReloaded:rocketlauncher>,
+    <MineFactoryReloaded:rocket:*>,
+    
+    // Railcraft
+    <Railcraft:cart.gift>
 ];
 
 for item in toRemove {
@@ -53,6 +68,14 @@ recipes.addShaped(<MineFactoryReloaded:safarinet.singleuse>, [[null, <minecraft:
 
 recipes.remove(<MineFactoryReloaded:safarinet.reusable>);
 recipes.addShaped(<MineFactoryReloaded:safarinet.reusable>, [[null, <minecraft:ghast_tear>, null], [<ore:itemSkull>, <MineFactoryReloaded:safarinet.singleuse>, <ore:itemSkull>], [null, <ore:ingotEnderium>, null]]);
+
+recipes.remove(<MineFactoryReloaded:machine.1:14>); # Meat Packer
+recipes.remove(<MineFactoryReloaded:stone:11>);
+
+recipes.addShaped(<MineFactoryReloaded:machine.1:14>, [[<ore:sheetPlastic>, <minecraft:flint_and_steel>, <ore:sheetPlastic>], [<minecraft:brick_block>, <ThermalExpansion:Frame:0>, <minecraft:brick_block>], [<minecraft:brick_block>, <ThermalExpansion:material:1>, <minecraft:brick_block>]]);
+
+recipes.addShaped(<MineFactoryReloaded:stone:11> * 4, [[<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>], [<minecraft:stone_slab>, <minecraft:sugar>, <minecraft:stone_slab>], [<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]]);
+recipes.addShapeless(<MineFactoryReloaded:stone:11> * 2, [<MineFactoryReloaded:stone:1>, <MineFactoryReloaded:stone:1>]);
 
 // Storage Drawers
 
@@ -92,4 +115,4 @@ for item in toRemove {
     Smeltery.removeMelting(item);
 }
 
-//Modifiers.remove("Flux");
+Modifiers.remove("Flux");
