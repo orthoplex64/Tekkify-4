@@ -53,8 +53,8 @@
     "ironferrous": {
         "template": "uniform",
         "block": [
-            {"name": "iron_ore", "metadata": 0, "weight": 80},
-            {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 20} // Ferrous
+            {"name": "iron_ore", "metadata": 0, "weight": 83},
+            {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 17} // Ferrous
         ],
         "material": "minecraft:stone",
         "clusterSize": 9,

@@ -1,8 +1,8 @@
 {
-    "copper": {
+    "copperlead": {
         "template": "uniform",
         "block": [
-            {"name": "ThermalFoundation:Ore", "metadata": 0, "weight": 80},
+            {"name": "ThermalFoundation:Ore", "metadata": 0, "weight": 80}, // Copper
             {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 20} // Lead
         ],
         "clusterSize": 9,
@@ -20,10 +20,13 @@
             1
         ]
     },
-    "tin": {
+    "tinaluminum": {
         "template": "uniform",
-        "block": {"name": "ThermalFoundation:Ore", "metadata": 1},
-        "clusterSize": 6,
+        "block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 1, "weight": 75}, // Tin
+            {"name": "TConstruct:SearedBrick", "metadata": 5, "weight": 25} // Aluminum
+        ],
+        "clusterSize": 7,
         "numClusters": 6,
         "minHeight": 20,
         "maxHeight": 50,
