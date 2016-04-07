@@ -115,3 +115,11 @@ Inscriber.addRecipe([<TConstruct:heavyPlate:2>], <Railcraft:ingot>, <minecraft:r
 Inscriber.addRecipe([<TConstruct:heavyPlate:2>], <minecraft:iron_ingot>, <minecraft:redstone_torch>, <appliedenergistics2:item.ItemMultiMaterial:15>, "Press");
 Inscriber.addRecipe([<TConstruct:heavyPlate:2>], <minecraft:iron_ingot>, <appliedenergistics2:item.ItemMultiMaterial:5>, <appliedenergistics2:item.ItemMultiMaterial:19>, "Press");
 Inscriber.addRecipe([<TConstruct:heavyPlate:2>], <minecraft:iron_ingot>, <minecraft:paper>, <appliedenergistics2:item.ItemMultiMaterial:21>, "Press");
+
+// Solar Flux
+
+recipes.remove(<SolarFlux:solar1>);
+recipes.addShaped(<SolarFlux:solar1>, [[<SolarFlux:mirror>, <SolarFlux:mirror>, <SolarFlux:mirror>], [<ore:ingotIron>, <Forestry:chipsets:1>, <ore:ingotIron>], [<Forestry:chipsets>, <ore:ingotLead>, <Forestry:chipsets>]]);
+
+recipes.remove(<SolarFlux:solar2>);
+recipes.addShaped(<SolarFlux:solar2>, [[null, <SolarFlux:solar1>, null], [<SolarFlux:solar1>, <ThermalExpansion:material:2>, <SolarFlux:solar1>], [null, <SolarFlux:solar1>, null]]);
