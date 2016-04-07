@@ -11,12 +11,6 @@ import mods.tconstruct.Smeltery;
 var toRemove = [] as IItemStack[];
 
 toRemove = [
-    // Vanilla
-    <minecraft:stone_pickaxe>,
-    <minecraft:iron_pickaxe>,
-    <minecraft:golden_pickaxe>,
-    <minecraft:diamond_pickaxe>,
-
     // Biomes o' Plenty
     <BiomesOPlenty:enderporter>,
 
@@ -25,9 +19,6 @@ toRemove = [
     <StorageDrawers:upgrade:6>,
 
     // Tinkers Construct
-    <TConstruct:ToolForgeBlock:*>,
-    <TConstruct:CraftingSlab:5>,
-
     <TConstruct:woodPattern:17>,
     <TConstruct:woodPattern:19>,
     <TConstruct:woodPattern:21>,
@@ -58,9 +49,7 @@ toRemove = [
 
 for item in toRemove {
     recipes.remove(item);
-
-    // Disabled for production, bit buggy with reloads
-    //NEI.hide(item);
+    item.addTooltip(format.red("Disabled"));
 }
 
 // MineFactory Reloaded
