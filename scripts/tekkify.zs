@@ -44,7 +44,17 @@ toRemove = [
     <MineFactoryReloaded:rocket:*>,
     
     // Railcraft
-    <Railcraft:cart.gift>
+    <Railcraft:cart.gift>,
+
+    // Galacticraft
+    <GalacticraftCore:tile.solar:*>,
+    <GalacticraftCore:tile.machine>,
+    <GalacticraftCore:tile.machineTiered:*>,
+    <GalacticraftCore:item.basicItem>,
+    <GalacticraftCore:item.basicItem:1>,
+    <GalacticraftCore:item.basicItem:12>,
+    <GalacticraftMars:item.itemAstroMiner>,
+    <GalacticraftMars:item.orionDrive>
 ];
 
 for item in toRemove {
