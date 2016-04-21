@@ -54,7 +54,10 @@ toRemove = [
     <GalacticraftCore:item.basicItem:1>,
     <GalacticraftCore:item.basicItem:12>,
     <GalacticraftMars:item.itemAstroMiner>,
-    <GalacticraftMars:item.orionDrive>
+    <GalacticraftMars:item.orionDrive>,
+
+    // Pam's Harvestcraft
+    <harvestcraft:market>
 ];
 
 for item in toRemove {
@@ -123,7 +126,7 @@ Modifiers.remove("Flux");
 Inscriber.addRecipe([<TConstruct:heavyPlate:2>], <minecraft:iron_ingot>, <minecraft:redstone>, <appliedenergistics2:item.ItemMultiMaterial:13>, "Press");
 Inscriber.addRecipe([<TConstruct:heavyPlate:2>], <Railcraft:ingot>, <minecraft:redstone>, <appliedenergistics2:item.ItemMultiMaterial:14>, "Press");
 Inscriber.addRecipe([<TConstruct:heavyPlate:2>], <minecraft:iron_ingot>, <minecraft:redstone_torch>, <appliedenergistics2:item.ItemMultiMaterial:15>, "Press");
-Inscriber.addRecipe([<TConstruct:heavyPlate:2>], <minecraft:iron_ingot>, <appliedenergistics2:item.ItemMultiMaterial:5>, <appliedenergistics2:item.ItemMultiMaterial:19>, "Press");
+Inscriber.addRecipe([<TConstruct:heavyPlate:2>], <minecraft:iron_ingot>, <ProjRed|Core:projectred.core.part:12>, <appliedenergistics2:item.ItemMultiMaterial:19>, "Press");
 Inscriber.addRecipe([<TConstruct:heavyPlate:2>], <minecraft:iron_ingot>, <minecraft:paper>, <appliedenergistics2:item.ItemMultiMaterial:21>, "Press");
 
 // Solar Flux

@@ -78,6 +78,7 @@ Railcraft - 9.10.0.0
 Render Player API - 1.4
 Render Player API Enhancer - 1.4
 Resource Loader - 1.2
+Simply Jetpacks - 1.5.3
 Smart Core - 1.0.3
 Smart Moving - 15.6
 Smart Render - 2.1

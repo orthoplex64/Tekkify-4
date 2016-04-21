@@ -23,8 +23,8 @@
     "tinaluminum": {
         "template": "uniform",
         "block": [
-            {"name": "ThermalFoundation:Ore", "metadata": 1, "weight": 75}, // Tin
-            {"name": "TConstruct:SearedBrick", "metadata": 5, "weight": 25} // Aluminum
+            {"name": "ThermalFoundation:Ore", "metadata": 1, "weight": 70}, // Tin
+            {"name": "TConstruct:SearedBrick", "metadata": 5, "weight": 30} // Aluminum
         ],
         "clusterSize": 7,
         "numClusters": 6,
@@ -35,6 +35,25 @@
         "biomes": [
             "all"
         ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "certusquartz": {
+        "template": "uniform",
+        "block": [
+            { "name": "appliedenergistics2:tile.OreQuartz", "metadata": 0, "weight": 90 },
+            { "name": "appliedenergistics2:tile.OreQuartzCharged", "metadata": 0, "weight": 10 }
+        ],
+        "clusterSize": 6,
+        "numClusters": 6,
+        "minHeight": 0,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
