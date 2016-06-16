@@ -11,7 +11,6 @@ Chisel - 2.9.5.11
 CoFH ASM - 000
 CoFH Core - 1.7.10R3.1.2
 CodeChicken Core - 1.0.7.47
-Custom Main Menu - 1.9.2
 Default Keyconfig - 1.0.28
 Ding - MC1.7.10v2
 EnderStorage - 1.4.7.38
@@ -74,7 +73,6 @@ ProjectRed Transmission - 4.7.0pre12.95
 Railcraft - 9.12.2.0
 Render Player API - 1.4
 Render Player API Enhancer - 1.4
-Resource Loader - 1.2
 Simply Jetpacks - 1.5.3
 Smart Core - 1.0.3
 Smart Moving - 15.6
