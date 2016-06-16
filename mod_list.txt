@@ -3,10 +3,10 @@ Applied Energistics 2 - rv2-stable-10
 AppliedEnergistics2 Core - rv2-stable-10
 Archimedes' Ships Plus - 1.7.10-1.8.1
 Binnie Core - 2.0-pre14
-Binnie Patcher - 1.7.1
+Binnie Patcher - 1.8.2
 Biomes O' Plenty - 2.1.0
 Botany - 2.0-pre14
-Carpenter's Blocks - 3.3.7
+Carpenter's Blocks - 3.3.8
 Chisel - 2.9.5.11
 CoFH ASM - 000
 CoFH Core - 1.7.10R3.1.2
@@ -18,12 +18,10 @@ EnderStorage - 1.4.7.38
 Extra Bees - 2.0-pre14
 Extra Trees - 2.0-pre14
 Extra Utilities - 1.2.12
-Forestry for Minecraft - 4.2.11.59
+Forestry for Minecraft - 4.2.13.61
 Forge Microblocks - 1.2.0.345
 Forge Mod Loader - 7.10.99.99
 Forge Multipart - 1.2.0.345
-Galacticraft Core - 3.0.12
-Galacticraft Planets - 3.0.12
 Garden Containers - 1.7.10-1.7.0
 Garden Core - 1.7.10-1.7.0
 Garden Stuff - 1.7.10-1.7.0
@@ -52,7 +50,6 @@ MFR Compat: Tinkers' Construct - 1.7.10R2.8.1
 MFR Compat: TwilightForest - 1.7.10R2.8.1
 MFR Compat: Vanilla - 1.7.10R2.8.1
 Mantle - 1.7.10-0.3.2.jenkins191
-Micdoodle8 Core - 
 MineFactory Reloaded - 1.7.10R2.8.1
 MineTweaker 3 - 3.0.10
 Minecraft Coder Pack - 9.05
@@ -74,7 +71,7 @@ ProjectRed Exploration - 4.7.0pre12.95
 ProjectRed Illumination - 4.7.0pre12.95
 ProjectRed Integration - 4.7.0pre12.95
 ProjectRed Transmission - 4.7.0pre12.95
-Railcraft - 9.10.0.0
+Railcraft - 9.12.2.0
 Render Player API - 1.4
 Render Player API Enhancer - 1.4
 Resource Loader - 1.2
@@ -83,10 +80,10 @@ Smart Core - 1.0.3
 Smart Moving - 15.6
 Smart Render - 2.1
 Solar Flux - 1.7.10-0.8b
-Storage Drawers - 1.7.10-1.9.4
-Thermal Dynamics - 1.7.10R1.2.0B2
+Storage Drawers - 1.7.10-1.9.8
+Thermal Dynamics - 1.7.10R1.2.0
 Thermal Expansion - 1.7.10R4.1.2
-Thermal Foundation - 1.7.10R1.2.3
+Thermal Foundation - 1.7.10R1.2.4
 TiC Tooltips - 1.2.5
 Tinkers' Construct - 1.7.10-1.8.8.build988
 Waila - 1.5.10
