@@ -46,6 +46,19 @@ toRemove = [
     // Railcraft
     <Railcraft:cart.gift>,
 
+    // Galacticraft
+    <GalacticraftCore:tile.solar:*>,
+    <GalacticraftCore:tile.machine>,
+    <GalacticraftCore:tile.machineTiered:*>,
+    <GalacticraftCore:item.basicItem>,
+    <GalacticraftCore:item.basicItem:1>,
+    <GalacticraftCore:item.basicItem:12>,
+    <GalacticraftMars:item.itemAstroMiner>,
+    <GalacticraftMars:item.orionDrive>,
+    <GalacticraftMars:item.itemBasicAsteroids:0>,
+    <GalacticraftMars:item.itemBasicAsteroids:1>,
+    <GalacticraftMars:item.itemBasicAsteroids:2>,
+
     // Pam's Harvestcraft
     <harvestcraft:market>
 ];
