@@ -31,6 +31,7 @@ Headcrumbs - 1.7.4
 Iguana Tinker Tweaks - 1.7.10-2.1.6.163
 Inventory Tweaks - 1.59-dev-152-cf6e263
 Iron Chest - 6.0.62.742
+JourneyMap - 5.1.4p1
 MFR Compat ProjectRed - 1.7.10R2.8.1
 MFR Compat: Applied Energistics - 1.7.10R2.8.1
 MFR Compat: Atum - 1.7.10R2.8.1
