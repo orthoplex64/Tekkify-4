@@ -6,7 +6,7 @@
             {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 20} // Lead
         ],
         "clusterSize": 8,
-        "numClusters": 6,
+        "numClusters": 5,
         "minHeight": 32,
         "maxHeight": 75,
         "retrogen": "true",
@@ -23,11 +23,11 @@
     "tinaluminum": {
         "template": "uniform",
         "block": [
-            {"name": "ThermalFoundation:Ore", "metadata": 1, "weight": 75}, // Tin
-            {"name": "TConstruct:SearedBrick", "metadata": 5, "weight": 25} // Aluminum
+            {"name": "ThermalFoundation:Ore", "metadata": 1, "weight": 70}, // Tin
+            {"name": "TConstruct:SearedBrick", "metadata": 5, "weight": 30} // Aluminum
         ],
         "clusterSize": 7,
-        "numClusters": 6,
+        "numClusters": 5,
         "minHeight": 20,
         "maxHeight": 50,
         "retrogen": "true",
@@ -48,7 +48,7 @@
             { "name": "appliedenergistics2:tile.OreQuartzCharged", "metadata": 0, "weight": 10 }
         ],
         "clusterSize": 6,
-        "numClusters": 6,
+        "numClusters": 2,
         "minHeight": 0,
         "maxHeight": 64,
         "retrogen": "true",
