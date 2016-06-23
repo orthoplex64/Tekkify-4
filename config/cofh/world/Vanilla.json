@@ -53,12 +53,12 @@
     "ironferrous": {
         "template": "uniform",
         "block": [
-            {"name": "iron_ore", "metadata": 0, "weight": 83},
-            {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 17} // Ferrous
+            {"name": "iron_ore", "metadata": 0, "weight": 90},
+            {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 10} // Ferrous
         ],
         "material": "minecraft:stone",
-        "clusterSize": 9,
-        "numClusters": 10,
+        "clusterSize": 8,
+        "numClusters": 8,
         "minHeight": 24,
         "maxHeight": 64,
         "retrogen": "true",
@@ -97,7 +97,7 @@
         "clusterSize": 7,
         "numClusters": 5,
         "minHeight": 0,
-        "maxHeight": 24,
+        "maxHeight": 16,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],

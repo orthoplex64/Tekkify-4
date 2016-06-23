@@ -42,6 +42,7 @@ toRemove = [
     <MineFactoryReloaded:needlegun.ammo.anvil>,
     <MineFactoryReloaded:rocketlauncher>,
     <MineFactoryReloaded:rocket:*>,
+    <MineFactoryReloaded:straw>,
     
     // Railcraft
     <Railcraft:cart.gift>,

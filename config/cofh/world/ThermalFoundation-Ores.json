@@ -5,8 +5,8 @@
             {"name": "ThermalFoundation:Ore", "metadata": 0, "weight": 80}, // Copper
             {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 20} // Lead
         ],
-        "clusterSize": 9,
-        "numClusters": 8,
+        "clusterSize": 8,
+        "numClusters": 6,
         "minHeight": 32,
         "maxHeight": 75,
         "retrogen": "true",
@@ -23,8 +23,8 @@
     "tinaluminum": {
         "template": "uniform",
         "block": [
-            {"name": "ThermalFoundation:Ore", "metadata": 1, "weight": 70}, // Tin
-            {"name": "TConstruct:SearedBrick", "metadata": 5, "weight": 30} // Aluminum
+            {"name": "ThermalFoundation:Ore", "metadata": 1, "weight": 75}, // Tin
+            {"name": "TConstruct:SearedBrick", "metadata": 5, "weight": 25} // Aluminum
         ],
         "clusterSize": 7,
         "numClusters": 6,
