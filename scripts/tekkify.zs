@@ -61,10 +61,7 @@ toRemove = [
     <GalacticraftMars:item.itemBasicAsteroids:2>,
 
     // Pam's Harvestcraft
-    <harvestcraft:market>,
-
-    // AgriCraft
-    <AgriCraft:sprinkler>
+    <harvestcraft:market>
 ];
 
 for item in toRemove {
