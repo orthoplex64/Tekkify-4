@@ -188,7 +188,7 @@ move.climb.ceiling.exhaustion.gain:1.3
 # =====================================================================
 
 # To switch on/off swimming
-move.swim:true
+move.swim:false
 
 # Speed factor while swimming (>= 0, relative to default movement speed)
 move.swim.speed.factor:1
@@ -1027,7 +1027,7 @@ move.config.survival.keys.default:m
 move.config.creative.keys:c
 
 # The option configuration to start the next minecraft creative game with (can also be modified via in-game option configuration toggling)
-move.config.creative.keys.default:c
+move.config.creative.keys.default:disabled
 
 
 # A list of adventure option configuration keys, entries seperated by ','
