@@ -18,15 +18,6 @@ toRemove = [
     <StorageDrawers:upgrade:4>,
     <StorageDrawers:upgrade:6>,
 
-    // Tinkers Construct
-    <TConstruct:woodPattern:17>,
-    <TConstruct:woodPattern:19>,
-    <TConstruct:woodPattern:21>,
-
-    <TConstruct:metalPattern:17>,
-    <TConstruct:metalPattern:19>,
-    <TConstruct:metalPattern:21>,
-
     // OpenComputers
     <OpenComputers:item:62>,
     
