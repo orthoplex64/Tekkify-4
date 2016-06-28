@@ -10,3 +10,5 @@
 
 config/NEI/client.cfg
 config/splash.properties
+config/restrictions.cfg
+config/InvTweaks.cfg

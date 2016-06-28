@@ -124,6 +124,7 @@ for item in toRemove {
 }
 
 Modifiers.remove("Flux");
+Modifiers.remove("Moss");
 
 // Applied Energistics 2
 
