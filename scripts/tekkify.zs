@@ -94,20 +94,12 @@ recipes.addShaped(<StorageDrawers:upgrade:5>, [[diamond, stick, diamond], [stick
 // Tinkers Construct
 
 toRemove = [
-    <TConstruct:metalPattern:17>,
-    <TConstruct:metalPattern:19>,
-    <TConstruct:metalPattern:21>
-];
-
-for item in toRemove {
-    Casting.removeTableRecipe(item);
-}
-
-toRemove = [
     <minecraft:anvil:0>,
     <minecraft:anvil:1>,
     <minecraft:anvil:2>,
     <minecraft:stone>,
+    <ExtraUtilities:unstableingot>,
+    <ExtraUtilities:unstableingot:2>
 ];
 
 for item in toRemove {

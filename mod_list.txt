@@ -65,7 +65,6 @@ Not Enough Items - 1.0.5.120
 OpenComputers - 1.5.22.46
 OpenComputers (Core) - 1.5.22.46
 Pam's HarvestCraft - 1.7.10j
-Player API - 1.4
 ProjectRed Compatibility - 4.7.0pre12.95
 ProjectRed Core - 4.7.0pre12.95
 ProjectRed Exploration - 4.7.0pre12.95
@@ -73,12 +72,7 @@ ProjectRed Illumination - 4.7.0pre12.95
 ProjectRed Integration - 4.7.0pre12.95
 ProjectRed Transmission - 4.7.0pre12.95
 Railcraft - 9.12.2.0
-Render Player API - 1.4
-Render Player API Enhancer - 1.4
 Simply Jetpacks - 1.5.3
-Smart Core - 1.0.3
-Smart Moving - 15.6
-Smart Render - 2.1
 Solar Flux - 1.7.10-0.8b
 Storage Drawers - 1.7.10-1.9.8
 Thermal Dynamics - 1.7.10R1.2.0
